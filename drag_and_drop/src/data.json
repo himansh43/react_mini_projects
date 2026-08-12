@@ -1,0 +1,19 @@
+
+{
+    "Todo":[
+        "Design UI mockups",
+        "Setup project repository",
+        "write unit test",
+        "Integrate Payment Gateway"
+    ],
+    "Completed":[
+        "Develop authentication flow",
+        "Implement responsive flow"
+
+    ],
+    "progress":[
+        "Setup CI/CD pipleline",
+        "Conduct code reviews",
+        "Deploy initial version to staging"
+    ]
+}
