@@ -47,10 +47,7 @@ const DragAndDrop = () => {
                   <div className="bg-gray-100 p-5" 
                   draggable 
                   onDragStart={(e)=>handleDragStart(e,todoValue,todoKey)}
-                  onDragEnd={(e)=>handleDragEnd(e)}
-                  
-                  
-                  
+                  onDragEnd={(e)=>handleDragEnd(e)}          
                   >
                     {index + 1}
                     {`) `}
