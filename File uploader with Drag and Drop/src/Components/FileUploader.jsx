@@ -35,7 +35,7 @@ const FileUploader = () => {
       <div className="flex flex-col justify-center items-center">
         <h2 className="font-bold text-2xl m-10">React File Uploader</h2>
         <div
-          className={` w-[600px] h-60  shadow-xl flex justify-center  items-center`}
+          className={` w-150 h-60  shadow-xl flex justify-center  items-center`}
         >
           <div
             className={`border-2 border-dashed ${!isDragging ? "border-gray-500" : "border-green-500"} rounded-sm text-center w-96 h-20 p-20 flex flex-col justify-center items-center gap-2`}
@@ -61,7 +61,7 @@ const FileUploader = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-3 justify-center    w-[600px] mt-5 ">
+      <div className="flex flex-col gap-3 justify-center    w-150 mt-5 ">
         {files?.map((item, index) => (
           <div
             key={index}

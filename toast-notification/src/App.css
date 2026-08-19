@@ -1,0 +1,17 @@
+
+.Success{
+    background-color:green;
+    color: white
+}
+.Info{
+    background-color:blue;
+    color: white
+}
+.Warning{
+    background-color: yellow;
+    color: white
+}
+.Error{
+    background-color:red;
+    color: white
+}
